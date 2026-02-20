@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-label="Stock trading A2C thumbnail">
+  <rect width="320" height="240" fill="#1b1b2f"/>
+  <g stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 176l42-40 34 22 36-58 34 20 30-34 38 26" stroke="#4cc9f0"/>
+    <path d="M30 194l46-18 30 10 34-16 38 8 30-10 40 14" stroke="#f72585" opacity="0.85"/>
+  </g>
+  <rect x="232" y="28" width="60" height="34" rx="6" fill="#0a9396"/>
+  <text x="262" y="50" text-anchor="middle" fill="#e9fffd" font-family="Lato, Arial, sans-serif" font-size="16" font-weight="700">A2C</text>
+  <text x="18" y="224" fill="#f3f4f6" font-family="Lato, Arial, sans-serif" font-size="20" font-weight="700">Automated Trading</text>
+</svg>

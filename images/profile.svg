@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-label="VN profile avatar">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b4965"/>
+      <stop offset="100%" stop-color="#5fa8d3"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#g)"/>
+  <circle cx="150" cy="112" r="54" fill="#ffffff" opacity="0.92"/>
+  <path d="M55 278c12-52 49-86 95-86s83 34 95 86" fill="#ffffff" opacity="0.92"/>
+  <text x="150" y="284" text-anchor="middle" font-family="Lato, Arial, sans-serif" font-size="28" fill="#0b2b40" font-weight="700">VN</text>
+</svg>

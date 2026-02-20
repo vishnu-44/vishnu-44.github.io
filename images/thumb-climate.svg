@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-label="Climate cloud detection thumbnail">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6cb4ee"/>
+      <stop offset="100%" stop-color="#d9efff"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="240" fill="url(#sky)"/>
+  <ellipse cx="98" cy="98" rx="42" ry="24" fill="#ffffff"/>
+  <ellipse cx="132" cy="94" rx="30" ry="20" fill="#ffffff"/>
+  <ellipse cx="188" cy="122" rx="46" ry="24" fill="#ffffff"/>
+  <ellipse cx="222" cy="116" rx="30" ry="18" fill="#ffffff"/>
+  <g stroke="#1d3557" stroke-width="3" opacity="0.9">
+    <line x1="54" y1="184" x2="268" y2="184"/>
+    <line x1="54" y1="198" x2="240" y2="198"/>
+  </g>
+  <text x="16" y="222" fill="#0b2540" font-family="Lato, Arial, sans-serif" font-size="20" font-weight="700">Cloud Shape ML</text>
+</svg>

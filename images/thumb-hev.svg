@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-label="Hybrid EV RL thumbnail">
+  <rect width="320" height="240" fill="#132a13"/>
+  <path d="M42 146h222l20 30H26z" fill="#2d6a4f"/>
+  <circle cx="82" cy="177" r="20" fill="#d8f3dc"/>
+  <circle cx="228" cy="177" r="20" fill="#d8f3dc"/>
+  <rect x="80" y="108" width="144" height="34" rx="8" fill="#95d5b2"/>
+  <path d="M266 62v38h-22" stroke="#ffd166" stroke-width="7" stroke-linecap="round"/>
+  <path d="M246 72l20-10M246 92l20 8" stroke="#ffd166" stroke-width="7" stroke-linecap="round"/>
+  <text x="18" y="34" fill="#ecfdf3" font-family="Lato, Arial, sans-serif" font-size="20" font-weight="700">RL + HEV EMS</text>
+</svg>

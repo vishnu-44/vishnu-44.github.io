@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-label="Unlearning project thumbnail">
+  <rect width="320" height="240" fill="#0b3a53"/>
+  <g stroke="#6ed3cf" stroke-width="4" fill="none" opacity="0.9">
+    <circle cx="88" cy="82" r="26"/>
+    <circle cx="156" cy="60" r="22"/>
+    <circle cx="228" cy="84" r="24"/>
+    <circle cx="138" cy="142" r="30"/>
+    <circle cx="224" cy="154" r="28"/>
+    <path d="M112 78l32-12M176 66l28 12M110 100l30 26M164 132l34 14"/>
+  </g>
+  <text x="20" y="216" fill="#d7f9f8" font-family="Lato, Arial, sans-serif" font-size="22" font-weight="700">Safety Unlearning</text>
+</svg>
