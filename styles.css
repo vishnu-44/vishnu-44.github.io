@@ -136,6 +136,30 @@ h3,
   font-size: clamp(1rem, 2.1vw, 1.35rem);
 }
 
+.profile-tags {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.55rem;
+  flex-wrap: wrap;
+}
+
+.tag-pill {
+  text-decoration: none;
+  color: #10345f;
+  background: #cfe3fa;
+  border: 1px solid #b3d0f3;
+  border-radius: 999px;
+  padding: 0.45rem 0.9rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.tag-pill:hover,
+.tag-pill:focus {
+  background: #bcd8f8;
+}
+
 main {
   width: min(1120px, calc(100vw - 2rem));
   margin: 0 auto;
