@@ -242,10 +242,20 @@ papertitle {
 }
 
 .news-scroll-container {
-  max-height: 170px;
-  overflow-y: scroll;
+  height: 190px;
+  overflow-y: auto;
   padding-right: 5px;
   margin-top: 4px;
+  scrollbar-gutter: stable;
+}
+
+.news-scroll-container table {
+  border-collapse: separate;
+  border-spacing: 0 6px;
+}
+
+.news-scroll-container td {
+  line-height: 1.3;
 }
 
 .news-scroll-container::-webkit-scrollbar {
