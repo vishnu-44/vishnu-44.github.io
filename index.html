@@ -52,6 +52,10 @@
         <div class="news-scroll-container">
           <table width="100%" border="0" cellspacing="0" cellpadding="2">
             <tr>
+              <td width="10%" valign="top"><span class="news-date">Mar '26</span></td>
+              <td width="90%" valign="top">Posted the arXiv preprint <a class="news-item-title" href="https://arxiv.org/abs/2603.14185" target="_blank">Relationship-Aware Safety Unlearning for Multimodal LLMs</a>.</td>
+            </tr>
+            <tr>
               <td width="10%" valign="top"><span class="news-date">Oct '25</span></td>
               <td width="90%" valign="top">Started <b>relationship-aware safety unlearning</b> experiments for <b>multimodal LLMs</b>.</td>
             </tr>
@@ -104,7 +108,34 @@
             <button class="tab-btn active" onclick="filterPublications('all')">All</button>
             <button class="tab-btn" onclick="filterPublications('conference')">Conference</button>
             <button class="tab-btn" onclick="filterPublications('workshop')">Workshop</button>
+            <button class="tab-btn" onclick="filterPublications('preprint')">Preprint</button>
           </div>
+
+          <tr data-type="preprint">
+            <td width="20%" class="pub-image">
+              <img src="images/pub-relationship-unlearning.svg" width="150" alt="Relationship-aware safety unlearning paper preview">
+            </td>
+            <td width="70%" valign="top" class="pub-details">
+              <papertitle>Relationship-Aware Safety Unlearning for Multimodal LLMs</papertitle><br>
+              Vishnu Narayanan Anilkumar, Abhijith Sreesylesh Babu, Trieu Hai Vo, Mohankrishna Kolla, Alexander Cuneo<br>
+              <em>arXiv preprint</em>, 2026
+
+              <div class="description">
+                We propose targeted relationship-aware safety unlearning for multimodal LLMs, suppressing unsafe object-relation-object tuples while preserving benign concepts and neighboring relations.
+              </div>
+
+              <a href="https://arxiv.org/abs/2603.14185" class="btn btn-publication" target="_blank"><span class="material-icons">picture_as_pdf</span> arXiv</a>
+              <a href="https://doi.org/10.48550/arXiv.2603.14185" class="btn btn-publication" target="_blank"><span class="material-icons">language</span> DOI</a>
+              <a href="javascript:void(0)" class="btn btn-publication" onclick="toggleBib('bib4')"><span class="material-icons">code</span> BibTeX</a>
+              <div id="bib4" class="bibtex"><pre>@article{anilkumar2026relationship,
+  title={Relationship-Aware Safety Unlearning for Multimodal LLMs},
+  author={Anilkumar, Vishnu Narayanan and Babu, Abhijith Sreesylesh and Vo, Trieu Hai and Kolla, Mohankrishna and Cuneo, Alexander},
+  journal={arXiv preprint arXiv:2603.14185},
+  year={2026},
+  doi={10.48550/arXiv.2603.14185}
+}</pre></div>
+            </td>
+          </tr>
 
           <tr data-type="conference">
             <td width="20%" class="pub-image">
